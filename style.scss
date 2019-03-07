@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@font-face {
+    font-family: 'Phenomena';
+    src: url('./fonts/Phenomena-Regular.ttf')
+}
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.top-navbar {
+    background: #000000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    .bitmap {
+        height: 30px;
+        width: 163px;
+        margin: 25px 0 25px 100px;
+    }
+    .top-navbar-selection {
+        display: inline-block;
+        // margin: 0 auto;
+        .products,
+        .innovation,
+        .explore  {    
+            text-decoration: none;        
+            color: #FFFFFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21px;
+        }
+        .products {
+            margin: 0 83px 0 247px;
+        }
+        .innovation {
+            margin-right: 82px;
+        }
+    }
+}
+
+.sticky-banner {
+    position: -webkit-sticky;
+    position: sticky;
+    font-family: Roboto;
+    background: #231F20;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .free-shipping-on-all {
+        margin: 0 50px 0 0;
+        height: 21px;
+        width: 196px;        
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    .rectangle-2 {
+        height: 40px;
+        width: 160px;        
+        border-radius: 5px;
+        border: none;
+        background-color: #BE2325;    
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19px;
+        text-align: center;      
+    }
+}
+
+.rectangle {
+    height: 720px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.22) 100%);
+    background-image: url('./Vittoria_\ Cross\ Country/Boice_Angel_Fire.png');
+    
+    .aspirational {
+        padding-top: 321px;
+        padding-left: 100px;
+    }
+    .aspirational-message {
+        margin: 0;
+        height: 117px;
+        width: 491px;
+        color: #FFFFFF;
+        font-family: Phenomena;
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 58px;
+        .aspirational-red {
+            color: red;
+        }
+    }
+    .consectetur-adipisci {
+        margin: 18px 0;
+        height: 58px;
+        width: 413px;
+        color: #D2D2D2;
+        font-family: Phenomena;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 29px;
+    }
+
+}
