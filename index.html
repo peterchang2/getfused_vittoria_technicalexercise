@@ -18,20 +18,50 @@
             <a class='explore' href="#">EXPLORE</a>
         </div>
     </nav>
-    <header class="sticky-banner">
+
+    <header class="sticky-banner" id="sticky-banner">
         <p class="free-shipping-on-all">Free shipping on all orders!</p>
         <button class="rectangle-2">
             SHOP NOW
         </button>
     </header>
+
     <main class="rectangle">
         <div class="aspirational">
-            <p class="aspirational-message"><span class="aspirational-red">ASPIRATIONAL MESSAGE</span> <br> LOREM IPSUM DOLOR SIT AMET</p>
+            <p class="aspirational-message"><span class="aspirational-red">ASPIRATIONAL MESSAGE</span> <br> LOREM IPSUM
+                DOLOR SIT AMET</p>
             <p class="consectetur-adipisci">Consectetur adipiscing elit aenean euismod bibendum laoreet.</p>
         </div>
     </main>
 
+    <section class="syd-queenstown-nz-photo-sean-l">
 
+    </section>
+
+    <aside class="rectangle-3">
+        
+    </aside>
+
+    <script>
+        // trigger funtion when window is scrolling
+        window.onscroll = function () { stickyShopNow() };
+
+        // grab the element with ID sticky-banner
+        const stickyBanner = document.getElementById("sticky-banner")
+        // when #sticky-banner reaches the top of the page
+        const sticky = stickyBanner.offsetTop
+
+        // when top of the has less space than #sticky-banner 
+        // add class of sticky-banner to it.
+        // otherwise remove class of sticky
+        function stickyShopNow() {
+            if (window.pageYOffset >= sticky) {
+                stickyBanner.classList.add("sticky")
+            } else {
+                stickyBanner.classList.remove("sticky")
+            }
+        }
+    </script>
 </body>
 
 </html>
