@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="57px" viewBox="0 0 50 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>4484E244-87CA-4999-BAE4-0D37A0B46511</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.442 49.9996 0.442 49.9996 57 0 57"></polygon>
+    </defs>
+    <g id="Web-Design-Comps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vittoria:-Gear" transform="translate(-733.000000, -1436.000000)">
+            <g id="Group-3" transform="translate(733.000000, 1436.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M48.2656,13.2877 L26.7336,0.8537 C25.7806,0.3047 24.2206,0.3047 23.2656,0.8537 L1.7336,13.2877 C0.7806,13.8377 -0.0004,15.1877 -0.0004,16.2877 L-0.0004,41.1527 C-0.0004,42.2537 0.7806,43.6037 1.7336,44.1537 L23.2656,56.5877 C24.2206,57.1377 25.7806,57.1377 26.7336,56.5877 L48.2656,44.1537 C49.2206,43.6037 49.9996,42.2537 49.9996,41.1527 L49.9996,16.2877 C49.9996,15.1877 49.2206,13.8377 48.2656,13.2877" id="Fill-1" fill="#E12727" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

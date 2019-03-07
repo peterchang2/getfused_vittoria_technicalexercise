@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="172px" viewBox="0 0 152 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>08EE49EC-0F27-4802-838B-DC2787623FC6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M145.7968,38.8631 L81.2008,1.5611 C78.3418,-0.0859 73.6618,-0.0859 70.7968,1.5611 L6.2008,38.8631 C3.3418,40.5131 0.9988,44.5631 0.9988,47.8631 L0.9988,122.4581 C0.9988,125.7611 3.3418,129.8111 6.2008,131.4611 L70.7968,168.7631 C73.6618,170.4131 78.3418,170.4131 81.2008,168.7631 L145.7968,131.4611 C148.6618,129.8111 150.9988,125.7611 150.9988,122.4581 L150.9988,47.8631 C150.9988,44.5631 148.6618,40.5131 145.7968,38.8631" id="path-1"></path>
+    </defs>
+    <g id="Web-Design-Comps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vittoria:-Cross-Country" transform="translate(-163.000000, -1094.000000)">
+            <g id="Group-3" transform="translate(163.000000, 1095.000000)">
+                <g id="Bitmap">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" stroke="#000000" fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
