@@ -3,9 +3,16 @@
     font-family: 'Phenomena';
     src: url('./fonts/Phenomena-Regular.ttf')
 }
+
 body {
     width: 1440px;
     margin: 0 auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .top-navbar {
@@ -41,12 +48,11 @@ body {
 }
 
 .sticky-banner {
-    position: -webkit-sticky;
-    position: sticky;
     font-family: Roboto;
     background: #231F20;
     color: white;
     height: 60px;
+    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +98,7 @@ body {
         font-weight: bold;
         line-height: 58px;
         .aspirational-red {
-            color: red;
+            color: #E32526;
         }
     }
     .consectetur-adipisci {
@@ -105,5 +111,18 @@ body {
         font-weight: bold;
         line-height: 29px;
     }
+}
 
+.syd-queenstown-nz-photo-sean-l {
+    background-image: url('./Vittoria_\ Cross\ Country/road_vs_mountain.png');
+	height: 650px;
+	width: 1440px;
+}
+
+.rectangle-3 {
+	background: linear-gradient(180deg, #231F20 0%, rgba(0,0,0,0.38) 100%);
+    background-image: url('./Vittoria_\ Cross\ Country/DTP_1818.png');
+	height: 812px;
+	width: 1440px;
+	opacity: 0.85;
 }
