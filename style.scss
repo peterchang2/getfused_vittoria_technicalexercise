@@ -126,3 +126,55 @@ body {
 	width: 1440px;
 	opacity: 0.85;
 }
+
+.rectangle-4-box {
+    display: flex;
+    padding-top: 202px;
+    justify-content: space-evenly;  
+    text-align: center;  	
+    .gravel,
+    .muddy-terrain,
+    .downhill,
+    .cross-country {
+    color: #FFFFFF;
+	font-family: Phenomena;
+	font-size: 24px;
+	font-weight: bold;
+    line-height: 29px;
+    margin: 21px 0 17px 0;
+    } 
+    .gravel-img,
+    .muddy-img,
+    .downhill-img,
+    .cross-img {
+        margin-top: 32px;
+    }   
+    .rectangle-4 {
+        height: 418px;
+        width: 281px;        
+        border-radius: 10px;
+        background-color: rgba(0,0,0,0.75);       
+    }
+    .rectangle-4-2 {
+        height: 418px;
+        width: 281px;
+        border-radius: 10px;
+        background-color: #000000;        
+    }    
+    .line {
+        box-sizing: border-box;
+        height: 2px;
+        width: 139px;
+        border: 1px solid #E32526;
+    }
+    .lorem-ipsum-dolor-si {
+        height: 80px;
+        width: 225px;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px auto;
+        text-align: left;
+    }
+}

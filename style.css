@@ -124,4 +124,56 @@ body {
   opacity: 0.85;
 }
 
+.rectangle-4-box {
+  display: flex;
+  padding-top: 202px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.rectangle-4-box .gravel,
+.rectangle-4-box .muddy-terrain,
+.rectangle-4-box .downhill,
+.rectangle-4-box .cross-country {
+  color: #FFFFFF;
+  font-family: Phenomena;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+  margin: 21px 0 17px 0;
+}
+.rectangle-4-box .gravel-img,
+.rectangle-4-box .muddy-img,
+.rectangle-4-box .downhill-img,
+.rectangle-4-box .cross-img {
+  margin-top: 32px;
+}
+.rectangle-4-box .rectangle-4 {
+  height: 418px;
+  width: 281px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.rectangle-4-box .rectangle-4-2 {
+  height: 418px;
+  width: 281px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+.rectangle-4-box .line {
+  box-sizing: border-box;
+  height: 2px;
+  width: 139px;
+  border: 1px solid #E32526;
+}
+.rectangle-4-box .lorem-ipsum-dolor-si {
+  height: 80px;
+  width: 225px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 15px auto;
+  text-align: left;
+}
+
 /*# sourceMappingURL=style.css.map */
