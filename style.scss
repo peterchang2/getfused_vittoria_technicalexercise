@@ -7,6 +7,7 @@
 body {
     width: 1440px;
     margin: 0 auto;
+    background: #000000;
 }
 .sticky {
   position: fixed;
@@ -59,6 +60,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
     .free-shipping-on-all {
         margin: 0 50px 0 0;
         height: 21px;
@@ -301,7 +303,92 @@ body {
 .rectangle-5 {
 	height: 1500px;
 	width: 1440px;
-    background-color: #000000;    
+    background-color: #000000;
+    font-family: Phenomena;
+    .find-top {
+        text-align: center;
+        .find-your-ride {
+            height: 43px;            
+            color: #FFFFFF;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 43px;
+            margin: 0 auto;
+            padding: 81px 0 0 0;
+        }
+        .there-s-more {
+            height: 29px;
+            width: 314px;
+            color: #848B8B;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 29px;
+            margin: 0 auto;
+            padding: 15px 0 0 0;
+        }
+        .line {
+            box-sizing: border-box;
+            height: 2px;
+            width: 139px;
+            border: 1px solid #E32526;
+            margin: 20px 0 0 0;
+        }       
+    }      
+    .find-4-panels {
+        height: 418px;
+        margin: 44px 0 0 0;
+        display: flex;
+        justify-content: space-evenly;    
+        .rectangle-7 {
+            position: relative;
+            display: table-cell;
+            height: 69px;
+            width: 281px;
+            background-color: #fefefe;
+            font-family: 'Phenomena';
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 29px;
+            text-align: center;
+            vertical-align: middle;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            top: -72px;
+        } 
+        .rectangle-7-2 {
+            background-color: #D32324;
+            color: #FFFFFF;
+        }    
+    } 
+    .featured-top {
+        text-align: center;
+        .featured-product {
+            height: 43px;            
+            color: #FFFFFF;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 43px;
+            margin: 0 auto;
+            padding: 114px 0 0 0;
+        }
+        .some-of-our {
+            height: 29px;
+            width: 314px;
+            color: #848B8B;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 29px;
+            margin: 0 auto;
+            padding: 15px 0 0 0;
+        }
+        .line {
+            box-sizing: border-box;
+            height: 2px;
+            width: 139px;
+            border: 1px solid #E32526;
+            margin: 20px 0 0 0;
+        }       
+    }      
 }
 
 // **********************************************
