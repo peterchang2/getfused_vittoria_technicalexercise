@@ -169,6 +169,7 @@ body {
 .rectangle-3 {
   background-image: url("./Vittoria_ Cross Country/DTP_1818.png"), linear-gradient(180deg, #231F20 0%, rgba(0, 0, 0, 0.38) 100%);
   height: 812px;
+  width: 1440px;
   display: flex;
 }
 .rectangle-3 .proven-left-col {
@@ -228,36 +229,54 @@ body {
   font-family: Phenomena;
   font-size: 24px;
   line-height: 29px;
-  margin: 0 0 0 12px;
+  margin: 20.56px 0 0 12px;
+  vertical-align: middle;
 }
-.rectangle-3 .proven-mid-col .red-underline-1 {
-  top: 0;
-  left: 10px;
-  position: relative;
+.rectangle-3 .proven-mid-col .mid-1 {
+  display: flex;
 }
 .rectangle-3 .proven-mid-col .mid-2 {
+  display: flex;
   padding: 47.94px 0 0 0;
 }
 .rectangle-3 .proven-mid-col .mid-3 {
+  display: flex;
   padding: 67.44px 0 0 0;
 }
 .rectangle-3 .proven-mid-col .mid-lorem {
-  height: 50px;
   width: 281px;
   color: #FFFFFF;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
-  margin: 0;
+  margin: 9px 0 0 0;
+}
+.rectangle-3 .red-underline-1 {
+  position: absolute;
+  width: 405px;
+  height: 2px;
+  margin-left: 25.5px;
+}
+.rectangle-3 .red-underline-2 {
+  position: absolute;
+  width: 360px;
+  height: 2px;
+  margin-left: 25.5px;
+}
+.rectangle-3 .red-underline-3 {
+  position: absolute;
+  width: 419px;
+  height: 2px;
+  margin-left: 25.5px;
 }
 .rectangle-3 .proven-right-col .under {
   position: absolute;
-  padding: 0 0 0 333px;
+  padding: 110.79px 0 0 86px;
 }
 .rectangle-3 .proven-right-col .over {
   position: absolute;
-  padding: 0 0 0 36px;
+  padding: 150px 0 0 125px;
 }
 
 .rectangle-5 {
