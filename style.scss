@@ -8,13 +8,14 @@ body {
     width: 1440px;
     margin: 0 auto;
 }
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+// ****************************************************
+// NAVBAR
 .top-navbar {
     background: #000000;
     height: 80px;
@@ -47,6 +48,8 @@ body {
     }
 }
 
+// ************************************************
+// SHOP NOW STICKY
 .sticky-banner {
     font-family: Roboto;
     background: #231F20;
@@ -63,7 +66,7 @@ body {
         font-size: 16px;
         font-weight: 500;
         line-height: 21px;
-    }
+    }    
     .rectangle-2 {
         height: 40px;
         width: 160px;        
@@ -79,10 +82,11 @@ body {
     }
 }
 
+// ***************************************************
+// ASPIRATIONAL MESSAGE
 .rectangle {
     height: 720px;
-    background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.22) 100%);
-    background-image: url('./Vittoria_\ Cross\ Country/Boice_Angel_Fire.png');
+    background-image: url('./Vittoria_\ Cross\ Country/Boice_Angel_Fire.png'), linear-gradient(180deg, #000000 0%, rgba(0,0,0,0.22) 100%);
     
     .aspirational {
         padding-top: 321px;
@@ -113,68 +117,207 @@ body {
     }
 }
 
+// *********************************************
+// ABOUT MOUNTAIN TIRES
 .syd-queenstown-nz-photo-sean-l {
     background-image: url('./Vittoria_\ Cross\ Country/road_vs_mountain.png');
 	height: 650px;
 	width: 1440px;
+    .rectangle-4-box {
+        display: flex;
+        padding-top: 202px;
+        justify-content: space-evenly;  
+        text-align: center;  	
+        .gravel,
+        .muddy-terrain,
+        .downhill,
+        .cross-country {
+        color: #FFFFFF;
+        font-family: Phenomena;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 29px;
+        margin: 21px 0 17px 0;
+        } 
+        .gravel-img,
+        .muddy-img,
+        .downhill-img,
+        .cross-img {
+            margin-top: 32px;
+        }   
+        .rectangle-4 {
+            height: 418px;
+            width: 281px;        
+            border-radius: 10px;
+            background-color: rgba(0,0,0,0.75);       
+        }
+        .rectangle-4-2 {
+            height: 418px;
+            width: 281px;
+            border-radius: 10px;
+            background-color: #000000;        
+        }    
+        .line {
+            box-sizing: border-box;
+            height: 2px;
+            width: 139px;
+            border: 1px solid #E32526;
+        }
+        .lorem-ipsum-dolor-si {
+            height: 80px;
+            width: 225px;
+            color: #FFFFFF;
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 24px;
+            margin: 15px auto;
+            text-align: left;
+        }
+    }
 }
 
+// ***************************************************************
+// PROVEN TECHNOLOGY
 .rectangle-3 {
-	background: linear-gradient(180deg, #231F20 0%, rgba(0,0,0,0.38) 100%);
-    background-image: url('./Vittoria_\ Cross\ Country/DTP_1818.png');
-	height: 812px;
-	width: 1440px;
-	opacity: 0.85;
+    background-image: url('./Vittoria_\ Cross\ Country/DTP_1818.png'), linear-gradient(180deg, #231F20 0%, rgba(0,0,0,0.38) 100%);	
+    height: 812px;
+    display: flex;
+    .proven-left-col {
+       padding: 244px 0 0 100px; 
+       width: 556px;
+       .proven-tech {
+           height: 43px;
+           width: 383px;
+           color: #FFFFFF;
+           font-family: Phenomena;
+           font-size: 36px;
+           font-weight: bold;
+           line-height: 43px;
+           margin: 0 0 15px 0;
+       }
+       .long-road {
+           height: 29px;
+           width: 278px;
+           color: #848B8B;
+           font-family: Phenomena;
+           font-size: 24px;
+           font-weight: bold;
+           line-height: 29px;
+       }
+       .line {
+           box-sizing: border-box;
+           height: 2px;
+           width: 139px;
+           border: 1px solid #E32526;
+       }
+       .proven-lorem {
+           height: 175px;
+           width: 556px;
+           color: #FFFFFF;
+           font-family: Roboto;
+           font-size: 16px;
+           line-height: 24px;
+       }
+       .discover-our-story {
+           height: 21px;
+           width: 135px;
+           color: #E32526;
+           font-family: Roboto;
+           font-size: 16px;
+           font-weight: 500;
+           line-height: 21px;
+       }
+    }
+    .proven-mid-col {
+        padding: 220.94px 0 0 77px;
+        .graphene,
+        .vittoria,
+        .off-road {
+            display: inline-block;
+            color: #848B8B;
+            font-family: Phenomena;
+            font-size: 24px;
+            line-height: 29px;  
+            margin: 0 0 0 12px;
+        }
+        .red-underline-1 {
+            top: 0;
+            left: 10px;
+            position: relative;
+        }
+        .mid-2 {
+            padding: 47.94px 0 0 0;
+        }
+        .mid-3 {            
+            padding: 67.44px 0 0 0;
+        }
+        .mid-lorem{
+            height: 50px;
+            width: 281px;
+            color: #FFFFFF;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            margin: 0;
+        }
+    }
+    .proven-right-col {
+        .under {
+            position: absolute;        
+            padding: 0 0 0 333px;
+        }
+        .over {
+            position: absolute;
+            padding: 0 0 0 36px;
+        }
+    }
 }
 
-.rectangle-4-box {
-    display: flex;
-    padding-top: 202px;
-    justify-content: space-evenly;  
-    text-align: center;  	
-    .gravel,
-    .muddy-terrain,
-    .downhill,
-    .cross-country {
-    color: #FFFFFF;
-	font-family: Phenomena;
-	font-size: 24px;
-	font-weight: bold;
-    line-height: 29px;
-    margin: 21px 0 17px 0;
-    } 
-    .gravel-img,
-    .muddy-img,
-    .downhill-img,
-    .cross-img {
-        margin-top: 32px;
-    }   
-    .rectangle-4 {
-        height: 418px;
-        width: 281px;        
-        border-radius: 10px;
-        background-color: rgba(0,0,0,0.75);       
+// **********************************************
+// FIND YOUR RIDE
+.rectangle-5 {
+	height: 1500px;
+	width: 1440px;
+    background-color: #000000;    
+}
+
+// **********************************************
+// BOTTOM SHOP NOW 
+.bottom-shop-now {
+    background: #231F20;
+    text-align: center;    
+    .bottom-lorem {
+        height: 43px;
+        width: 619px;
+        color: #FFFFFF;
+        font-family: Phenomena;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 43px;    
+        margin: 0 auto;
+        padding: 35px 0 30px 0;
     }
-    .rectangle-4-2 {
-        height: 418px;
-        width: 281px;
-        border-radius: 10px;
-        background-color: #000000;        
-    }    
-    .line {
-        box-sizing: border-box;
-        height: 2px;
-        width: 139px;
-        border: 1px solid #E32526;
-    }
-    .lorem-ipsum-dolor-si {
-        height: 80px;
-        width: 225px;
+    .bottom-shop-btn {
+        height: 40px;
+        width: 160px;        
+        border-radius: 5px;
+        border: none;
+        background-color: #BE2325;    
         color: #FFFFFF;
         font-family: Roboto;
         font-size: 14px;
-        line-height: 24px;
-        margin: 15px auto;
-        text-align: left;
+        font-weight: 500;
+        line-height: 19px;
+        text-align: center;  
+        margin: 0 0 32px 0;
     }
+}
+
+// ***********************************************
+// FOOTER
+.rectangle-6 {
+	height: 400px;
+	width: 1440px;
+	background-color: #000000;
 }
