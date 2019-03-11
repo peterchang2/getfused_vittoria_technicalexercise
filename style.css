@@ -321,7 +321,7 @@ body {
 }
 .rectangle-5 .find-4-panels {
   height: 418px;
-  width: 1350px;
+  width: 1362px;
   margin: 44px auto 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -330,7 +330,7 @@ body {
   position: relative;
   display: table-cell;
   height: 69px;
-  width: 281px;
+  width: 280.5px;
   background-color: #fefefe;
   font-family: "Phenomena";
   font-size: 24px;
@@ -376,7 +376,7 @@ body {
   margin: 20px 0 0 0;
 }
 .rectangle-5 .featured-4-box {
-  width: 1322px;
+  width: 1302px;
   display: flex;
   justify-content: space-evenly;
   margin: 59px auto 0 auto;
