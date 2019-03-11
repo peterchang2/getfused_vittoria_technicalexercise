@@ -118,9 +118,11 @@ body {
   width: 1440px;
 }
 .syd-queenstown-nz-photo-sean-l .rectangle-4-box {
+  width: 1342px;
   display: flex;
-  padding-top: 202px;
   justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 202px;
   text-align: center;
 }
 .syd-queenstown-nz-photo-sean-l .rectangle-4-box .gravel,
@@ -319,7 +321,8 @@ body {
 }
 .rectangle-5 .find-4-panels {
   height: 418px;
-  margin: 44px 0 0 0;
+  width: 1350px;
+  margin: 44px auto 0 auto;
   display: flex;
   justify-content: space-evenly;
 }
@@ -371,6 +374,46 @@ body {
   width: 139px;
   border: 1px solid #E32526;
   margin: 20px 0 0 0;
+}
+.rectangle-5 .featured-4-box {
+  width: 1322px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 59px auto 0 auto;
+  font-family: Roboto;
+  text-align: center;
+  color: #FFFFFF;
+}
+.rectangle-5 .featured-4-box .featured-gray {
+  border-radius: 10px;
+  background-color: #181818;
+}
+.rectangle-5 .featured-4-box .featured-rectangle {
+  height: 418px;
+  width: 281px;
+}
+.rectangle-5 .featured-4-box .featured-product-image,
+.rectangle-5 .featured-4-box .featured-product-type-image {
+  padding-top: 25px;
+}
+.rectangle-5 .featured-4-box .featured-product-title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+}
+.rectangle-5 .featured-4-box .featured-product-type {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+.rectangle-5 .featured-4-box .featured-product-price {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.rectangle-5 .featured-4-box .from {
+  font-size: 10px;
+  font-weight: 300;
 }
 
 .bottom-shop-now {

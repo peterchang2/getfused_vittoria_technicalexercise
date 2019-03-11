@@ -127,9 +127,11 @@ body {
 	height: 650px;
 	width: 1440px;
     .rectangle-4-box {
+        width: 1342px;
         display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;  
         padding-top: 202px;
-        justify-content: space-evenly;  
         text-align: center;  	
         .gravel,
         .muddy-terrain,
@@ -337,7 +339,8 @@ body {
     }      
     .find-4-panels {
         height: 418px;
-        margin: 44px 0 0 0;
+        width: 1350px;
+        margin: 44px auto 0 auto;
         display: flex;
         justify-content: space-evenly;    
         .rectangle-7 {
@@ -389,7 +392,48 @@ body {
             border: 1px solid #E32526;
             margin: 20px 0 0 0;
         }       
-    }      
+    }   
+    .featured-4-box {
+        width: 1322px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 59px auto 0 auto;
+        font-family: Roboto;
+        text-align: center;
+        color: #FFFFFF;
+        .featured-gray {
+            border-radius: 10px;
+            background-color: #181818;
+        }
+        .featured-rectangle {
+            height: 418px;
+            width: 281px;            
+        }
+        .featured-product-image,
+        .featured-product-type-image {
+            padding-top: 25px;
+        }
+        .featured-product-title {
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 21px;
+        }
+        .featured-product-type {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px;
+        }
+        .featured-product-price {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+        .from {
+            font-size: 10px;
+            font-weight: 300;
+
+        }
+    }   
 }
 
 // **********************************************
