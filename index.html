@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vittoria Cross Country</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
@@ -153,7 +155,8 @@
                 <div class="rectangle-7 rectangle-7-2">CROSS COUNTRY IN THE SNOW</div>
             </div>
             <div class="container-1">
-                <img src="./Vittoria_ Cross Country/PROMO/FEATURED/Macky-Queenstown-NZ-Photo-Sean-Leader/Macky-Queenstown-NZ-Photo-Sean-Leader.png" alt="">
+                <img src="./Vittoria_ Cross Country/PROMO/FEATURED/Macky-Queenstown-NZ-Photo-Sean-Leader/Macky-Queenstown-NZ-Photo-Sean-Leader.png"
+                    alt="">
                 <div class="rectangle-7">MUDDY DOWNHILL</div>
             </div>
             <div class="container-1">
@@ -170,28 +173,32 @@
 
         <div class="featured-4-box">
             <div class="featured-rectangle featured-gray">
-                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png" alt="">
+                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png"
+                    alt="">
                 <img class='featured-product-type-image' src="./Vittoria_ Cross Country/Capture.PNG" alt="">
                 <p class="featured-product-title">CORSA</p>
                 <p class="featured-product-type">Competition</p>
                 <p class="featured-product-price"><span class="from">From</span> $79.99</p>
             </div>
             <div class="featured-rectangle">
-                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png" alt="">
+                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png"
+                    alt="">
                 <img class='featured-product-type-image' src="./Vittoria_ Cross Country/Capture2.PNG" alt="">
                 <p class="featured-product-title">CORSA</p>
                 <p class="featured-product-type">Competition</p>
                 <p class="featured-product-price"><span class="from">From</span> $79.99</p>
             </div>
             <div class="featured-rectangle">
-                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png" alt="">
+                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png"
+                    alt="">
                 <img class='featured-product-type-image' src="./Vittoria_ Cross Country/Capture2.PNG" alt="">
                 <p class="featured-product-title">CORSA</p>
                 <p class="featured-product-type">Competition</p>
                 <p class="featured-product-price"><span class="from">From</span> $79.99</p>
             </div>
             <div class="featured-rectangle">
-                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png" alt="">
+                <img class='featured-product-image' src="./Vittoria_ Cross Country/PROMO/FEATURED/Group 5/Bitmap.png"
+                    alt="">
                 <img class='featured-product-type-image' src="./Vittoria_ Cross Country/Capture2.PNG" alt="">
                 <p class="featured-product-title">CORSA</p>
                 <p class="featured-product-type">Competition</p>
@@ -213,14 +220,56 @@
     <!-- *************************************************************************** -->
     <!-- FOOTER -->
     <footer class="rectangle-6">
+        <div class="footer-flex">
+            <div class="left-footer-col">
+                <div class="left-footer-left">
+                    <a class='top' href="#">FIND A DEALER</a>
+                    <a href="#">DISTRIBUTORS</a>
+                    <a href="#">NEWS</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">TIRE PRESSURE</a>
+                </div>
+                <div class="left-footer-mid">
+                    <p class="top">HELP & SUPPORT</p>
+                    <a href="#" class="help-subheading">Order status</a>
+                    <a href="#" class="help-subheading">Shipping and delivery</a>
+                    <a href="#" class="help-subheading">Returns</a>
+                    <a href="#" class="help-subheading">Payment options</a>
+                    <a href="#" class="help-subheading">Contact us</a>
+                    <a href="#" class="help-subheading">Privacy Policy</a>
+                    <a href="#" class="help-subheading">Terms and Conditions</a>
+                </div>
+                <div class="left-footer-right">
+                    <p class='top'>FOLLOW US</p>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="right-footer-col">
+                <img src="./Vittoria_ Cross Country/Capture62.PNG" alt="">
+            </div>
 
+        </div>
+        
+        <p class="copyright">© Vittoria. All Rights Reserved.</p>
     </footer>
 
     <!-- *************************************************************************** -->
     <!-- Sticky shop now function -->
+
+    <!-- Just a quick jQuery call and function to prevent anchor tag refresh on click -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
+        $('a').click(function () {
+            return false;
+        })
+
         // trigger funtion when window is scrolling
-        window.onscroll = function () { stickyShopNow() };
+        window.onscroll = function () {
+            stickyShopNow()
+        }
 
         // grab the element with ID sticky-banner
         const stickyBanner = document.getElementById("sticky-banner")
