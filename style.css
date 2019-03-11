@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
 @font-face {
   font-family: "Phenomena";
   src: url("./fonts/Phenomena-Regular.ttf");
@@ -419,6 +419,7 @@ body {
 .bottom-shop-now {
   background: #231F20;
   text-align: center;
+  border-bottom: 3px solid #D32324;
 }
 .bottom-shop-now .bottom-lorem {
   height: 43px;
@@ -451,6 +452,59 @@ body {
   height: 400px;
   width: 1440px;
   background-color: #000000;
+  color: #FFFFFF;
+  font-family: Roboto;
+}
+.rectangle-6 .footer-flex {
+  display: flex;
+}
+.rectangle-6 .right-footer-col {
+  margin: 43px 102px 0 auto;
+}
+.rectangle-6 .left-footer-col {
+  width: 550px;
+  display: flex;
+  margin: 0 0 0 102px;
+  justify-content: space-between;
+}
+.rectangle-6 .left-footer-col a {
+  text-decoration: none;
+}
+.rectangle-6 .left-footer-col .top {
+  margin: 44px 0 0 0;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+}
+.rectangle-6 .left-footer-left a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.rectangle-6 .left-footer-mid .help-subheading {
+  padding: 12px 0 0 0;
+}
+.rectangle-6 .left-footer-mid a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+}
+.rectangle-6 .left-footer-right i {
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 17px 10px 0 0;
+}
+.rectangle-6 .copyright {
+  margin: 47px 0 53px 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
